@@ -1,0 +1,26 @@
+Package: socketR
+Title: POSIX Socket Programming for R
+Version: 1.0.4
+Authors@R: c(
+    person("Eduardo", "Hellas", , "ehellas@gmail.com", role = c("aut", "cre")),
+    person("SAS", email= "support@sas.com", role = c("cph", "fnd"))
+    )
+Description: Provides a small, type-safe interface to POSIX sockets on Linux.
+License: Apache License (>= 2)
+Encoding: UTF-8
+SystemRequirements: Linux operating system with POSIX socket APIs and
+        C++17 compiler
+Imports: R6
+Suggests: arrow, knitr, rmarkdown, testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+URL: https://sassoftware.github.io/socketr/
+BugReports: https://github.com/sassoftware/socketr/issues
+Config/roxygen2/version: 8.1.0
+NeedsCompilation: yes
+Packaged: 2026-08-28 16:18:47 UTC; edhell
+Author: Eduardo Hellas [aut, cre],
+  SAS [cph, fnd]
+Maintainer: Eduardo Hellas <ehellas@gmail.com>
+Repository: CRAN
+Date/Publication: 2026-09-10 08:30:02 UTC

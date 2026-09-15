@@ -1,10 +1,10 @@
-dd517c9ce2f799bd2bf7d3671a016b63 *DESCRIPTION
+dca659d84ab25e2bf09ec7e9ed03fbde *DESCRIPTION
 afd4c67480f973aa0cdcdb392ce986f1 *NAMESPACE
 ba63b31538721679f99d4d96acd62fc6 *R/Socket.R
 2d98efae0e5f979ab030942a774ae5df *R/socketR-package.R
 e67fbf1e0683a589de5e466acfff4499 *R/socketr.R
 a6ff9c47ac1ec474425d392646e97e65 *R/zzz.R
-b2f79b8c46e8953adfa7d4ca3d5634a5 *README.md
+3c0b32cbb56cb87ed47d38e2aa0a8876 *README.md
 7a8feccf1baa6088d3cf16d46325b210 *build/vignette.rds
 a3aa1be32d39d95c5b4e12bb7c5597e0 *inst/doc/socketr-arrow.R
 89561a91aaa188a66b82dba5c49dd14b *inst/doc/socketr-arrow.Rmd
@@ -37,9 +37,11 @@ c9588b67a8ba5d2639a1643ddd438844 *man/socket_resolve.Rd
 d23c82187cc770413dca494b9f9c175a *man/socket_set_option.Rd
 680fada7a9baa09422b9f5b335bbf626 *man/socket_set_options.Rd
 e8b8ce9ddd53d769a335ab8f43fea3f9 *man/socket_setup.Rd
-a2dbdfac3e3e32fdd36937dd0354c33a *src/Makevars
+74d9cdbdc6024b0a1264c62b3ca50522 *src/Makevars
 0fdfff8e95b111a80dce594c966eeb47 *src/Makevars.win
-5f5fb5e7b5b97d97cc15b8896be75e94 *src/posix/socketr.cpp
+da6e93c1b87eaf73c40e092fd66d88b4 *src/posix/rconnections.c
+7b214a3da5771a7199a358d24947682f *src/posix/rconnections.h
+f8a1c56a3d2ebee41d59eb036d9d4dee *src/posix/socketr.cpp
 1c7be9ed5003ec0f837f310f2da1244d *src/socketr_windows.cpp
 181279ca402413e4d1458e2b90ad22fa *tests/testthat.R
 c13aab08b548b99f614f6dbc396c1b76 *tests/testthat/test-socketr.R

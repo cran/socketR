@@ -1,11 +1,11 @@
 Package: socketR
 Title: POSIX Socket Programming for R
-Version: 1.0.4
+Version: 1.0.5
 Authors@R: c(
     person("Eduardo", "Hellas", , "ehellas@gmail.com", role = c("aut", "cre")),
     person("SAS", email= "support@sas.com", role = c("cph", "fnd"))
     )
-Description: Provides a small, type-safe interface to POSIX sockets on Linux.
+Description: Provides a small POSIX sockets interface to R, enabling direct network communication from R for applications that need low-level socket control or lightweight client and server connections. This package provides IPv4 and IPv6 support with 'TCP/UDP' protocols. It functional API with 'socket_create' and an R6 interface through 'Socket' object.
 License: Apache License (>= 2)
 Encoding: UTF-8
 SystemRequirements: Linux operating system with POSIX socket APIs and
@@ -17,10 +17,11 @@ VignetteBuilder: knitr
 URL: https://sassoftware.github.io/socketr/
 BugReports: https://github.com/sassoftware/socketr/issues
 Config/roxygen2/version: 8.1.0
+Depends: R (>= 4.6.0)
 NeedsCompilation: yes
-Packaged: 2026-08-28 16:18:47 UTC; edhell
+Packaged: 2026-09-14 16:38:42 UTC; edhell
 Author: Eduardo Hellas [aut, cre],
   SAS [cph, fnd]
 Maintainer: Eduardo Hellas <ehellas@gmail.com>
 Repository: CRAN
-Date/Publication: 2026-09-10 08:30:02 UTC
+Date/Publication: 2026-09-15 06:30:02 UTC
